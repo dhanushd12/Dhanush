@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Square Numbers Program</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f7f7f7;
+        }
+
+        .container {
+            text-align: center;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            max-width: 600px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        .number-square {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            text-align: left;
+            margin-top: 20px;
+        }
+
+        .number-square div {
+            padding: 10px;
+            background-color: #e3e3e3;
+            border-radius: 5px;
+            font-size: 18px;
+        }
+
+        .number-square div:nth-child(even) {
+            background-color: #c4e1ff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Squares of Numbers</h1>
+        <div class="number-square">
+            <div>1</div>
+            <div>1</div>
+            <div>2</div>
+            <div>4</div>
+            <div>3</div>
+            <div>9</div>
+            <div>4</div>
+            <div>16</div>
+            <div>5</div>
+            <div>25</div>
+            <div>6</div>
+            <div>36</div>
+            <div>7</div>
+            <div>49</div>
+            <div>8</div>
+            <div>64</div>
+            <div>9</div>
+            <div>81</div>
+            <div>10</div>
+            <div>100</div>
+        </div>
+    </div>
+</body>
+</html>
